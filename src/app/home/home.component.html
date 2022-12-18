@@ -1,0 +1,152 @@
+<div class="carousel-section">
+  <div class="back-text">Shannun</div>
+  <div class="d-flex justify-content-between">
+    <div class="">
+      <h4 class="fw-bold">Welcome to the Home of</h4>
+      <h1 class="fw-bold">SHANNUN</h1>
+      <h5>
+        Feel the Zen Experience wheather you are <br />
+        buying or selling
+      </h5>
+      <div class="app-strore pr-3">
+        <img src="assets\images\app-store-btn.png" alt="" class="w-50" />
+        <img src="assets\images\google-play-store.png" alt="" class="w-50" />
+      </div>
+    </div>
+
+    <div
+      id="carouselExampleFade"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img
+            src="assets\images\carousel\car1.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="assets\images\carousel\car2.png"
+            class="d-block w-50"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img
+            src="assets\images\carousel\car3.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="row d-flex justify-content-center align-items-center pt-4">
+    <div class="col-md-12">
+      <div class="search">
+        <i class="bi bi-search"></i>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Search any car with us"
+        />
+        <button class="btn btn-primary fw-bold">Find</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="border count-section">
+  <div class="d-flex justify-content-between px-5">
+    <div>
+      <h1>957</h1>
+      <h3>Cars</h3>
+    </div>
+    <div>
+      <h1>2000+</h1>
+      <h3>Shannun users</h3>
+    </div>
+    <div>
+      <h1>30+</h1>
+      <h3>Brands</h3>
+    </div>
+    <div>
+      <h1>1589+</h1>
+      <h3>Happy Customers</h3>
+    </div>
+  </div>
+  <div class="searches d-flex align-items-center">
+    <div class="">
+      <div class="row inline-block">
+        <li class="header">Recent Searches :</li>
+        <li class="body"><i class="bi bi-arrow-counterclockwise"></i>BMW</li>
+        <li class="body">
+          <i class="bi bi-arrow-counterclockwise"></i>Series 8
+        </li>
+        <li class="body"><i class="bi bi-arrow-counterclockwise"></i>AMG GT</li>
+        <li class="body"><i class="bi bi-arrow-counterclockwise"></i>Shelby</li>
+      </div>
+
+      <div class="row inline-block">
+        <li class="header">Popular Searches :</li>
+        <li class="body"><i class="bi bi-graph-up-arrow"></i>AMG g63</li>
+        <li class="body"><i class="bi bi-graph-up-arrow"></i>Lamborghini</li>
+        <li class="body"><i class="bi bi-graph-up-arrow"></i>Mclaran p1</li>
+        <li class="body"><i class="bi bi-graph-up-arrow"></i>LX 600</li>
+        <li class="body"><i class="bi bi-graph-up-arrow"></i>Range Rover</li>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popular-brands-section">
+  <h3 class="text-center">Popular Brands</h3>
+  <div class="d-flex flex-wrap logo-wrap">
+    <div *ngFor="let item of brands; index as i">
+      <div class="logo">
+        <img [src]="item.brandLogo" alt="" class="w-100" />
+        <h5 class="text-center">{{ item.brandName }}</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="about-section">
+  <h3>About</h3>
+  <h1>Shannun</h1>
+  <div class="d-flex justify-content-between">
+    <div class="w-50 bg-white p-4 fw-bold opacity-75">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat illo
+      libero minus placeat voluptas in eligendi qui officiis magnam laudantium
+      aliquam fugit cumque perferendis, odio cupiditate sunt dolore quia nisi?
+
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat illo
+      libero minus placeat voluptas in eligendi qui officiis magnam laudantium
+      aliquam fugit cumque perferendis, odio cupiditate sunt dolore quia nisi?
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat illo
+      libero minus placeat voluptas in eligendi qui officiis magnam laudantium
+      aliquam fugit cumque perferendis, odio cupiditate sunt dolore quia nisi?
+    </div>
+    <div>
+      <img src="assets\images\video-thumbnail.png" alt="">
+    </div>
+  </div>
+</div>
